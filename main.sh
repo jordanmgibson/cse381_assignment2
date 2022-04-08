@@ -106,6 +106,7 @@ do
     fi 
     echo
     echo
+<<<<<<< HEAD
     echo -n "You want to plot another pattern? enter another option: "
     read option
 done                                                
@@ -127,6 +128,8 @@ e
         echo
 	echo
     fi 
+=======
+>>>>>>> 163eb4e5c1017a9f6192deb5a0c1b9a79035b033
     echo -n "You want to plot another pattern? enter another option: "
     read option
 done                                                
