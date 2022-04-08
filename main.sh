@@ -40,23 +40,23 @@ while ["$option" != "Q"]
 do
     # Check the user options to determine which shell script needs to be invoked
     # To invoke a script, two positional parameters need to be passed that script, symbol and size, namely
-    if ["$option" = "R"]
+    if [ "$option" = "R" ]
     then
         echo -n "right-top triangle"
         break
-    elif ["$option" = "D"]
+    elif [ "$option" = "D" ]
     then
         echo -n "diagonal"
         break
-    elif ["$option" = "S"]
+    elif [ "$option" = "S" ]
     then
         echo -n "secondary diagonal"
         break
-    elif ["$option" = "H"]
+    elif [ "$option" = "H" ]
     then
         echo -n "Hollow square"
         break
-    elif ["$option" = "Q"]
+    elif [ "$option" = "Q" ]
     then
         break
     else
