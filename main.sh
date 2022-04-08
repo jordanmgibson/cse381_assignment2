@@ -102,6 +102,7 @@ do
     else
         echo -n "Unknow option entered ... !"
         echo
+        echo
     fi 
     echo
     echo
