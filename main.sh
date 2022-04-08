@@ -36,7 +36,7 @@ read size
 
 
 # Loop to run as long as the option entered by the user 
-while ["$option" != "Q"]
+while [ "$option" != "Q" ]
 do
     # Check the user options to determine which shell script needs to be invoked
     # To invoke a script, two positional parameters need to be passed that script, symbol and size, namely
