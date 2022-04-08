@@ -2,11 +2,17 @@
 
 # Display the pattern options to the user
 echo -n "To plot right-top triangle, press R"
+echo
 echo -n "To plot diagonal, press D"
+echo
 echo -n "To plot secondary diagonal, press S"
+echo
 echo -n "To plot Hollow square, press H"
+echo
 echo -n "To exit, press Q"
+echo
 echo -n "-------------------"
+echo
 # Make the right_top.sh executable
 
 
