@@ -1,5 +1,5 @@
 i=$2
-while [ i -ge 1 ]
+while [ i >= 1 ]
 do
     j=i
     while [ j -gt i]
