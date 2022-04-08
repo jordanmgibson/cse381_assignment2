@@ -1,4 +1,5 @@
 i=$2
+echo "$i"
 while [ $i -ge 1 ]
 do
     j=$2
