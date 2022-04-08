@@ -1,7 +1,7 @@
 i=$2
 while [ $i -ge 1 ]
 do
-    $j=$2
+    j=$2
     while [ $j -gt $i ]
     do
         echo " "
