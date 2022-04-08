@@ -42,26 +42,23 @@ do
     # To invoke a script, two positional parameters need to be passed that script, symbol and size, namely
     if [ "$option" = "R" ]
     then
-        echo -n "right-top triangle"
-        break
+        ./right_top.sh "$symbol" $size"
     elif [ "$option" = "D" ]
     then
         echo -n "diagonal"
-        break
     elif [ "$option" = "S" ]
     then
         echo -n "secondary diagonal"
-        break
     elif [ "$option" = "H" ]
     then
         echo -n "Hollow square"
-        break
     elif [ "$option" = "Q" ]
     then
         break
     else
         echo -n "Unknow option entered ... !"
         echo
+	echo
     fi 
     echo -n "You want to plot another pattern? enter another option: "
     read option
