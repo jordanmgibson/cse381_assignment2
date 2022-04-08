@@ -56,17 +56,13 @@ do
     then
         echo -n "Hollow square"
         break
+    elif ["$option" = "Q"]
+    then
+        break
     else
-        echo -n "Incorrect option selected."
+        echo -n "Unknow option entered ... !"
         echo
-    fi
-    
-    echo -n "Enter your option to plot pattern: "
+    fi 
+    echo -n "You want to plot another pattern? enter another option: "
     read option
-
-    echo -n "Enter a symbol to be used to plot your pattern: "
-    read symbol
-
-    echo -n "Enter your pattern size: "
-    read size
 done                                                
