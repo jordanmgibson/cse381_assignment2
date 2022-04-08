@@ -60,6 +60,8 @@ do
         echo
 	echo
     fi 
+    echo
+    echo
     echo -n "You want to plot another pattern? enter another option: "
     read option
 done                                                
