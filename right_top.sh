@@ -5,14 +5,14 @@ do
     while [ $j -gt $i]
     do
         echo " "
-        $j = $j - 1
+        j=`expr $j - 1`
     done
     k=1
     while [ $k -ge $i ]
     do
         echo "$1"
-        $k = $k + 1
+        k=`expr $k + 1`
     done
     echo
-    $i = $i - 1
+    i=`expr $i - 1`
 done
