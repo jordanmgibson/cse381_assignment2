@@ -1,5 +1,5 @@
 i=$2
-while [ $i >= 1 ]
+while [ i >= 1 ]
 do
     $j=$2
     while [ $j > $i]
