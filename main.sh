@@ -55,7 +55,7 @@ echo -n "To plot Hollow square, press H"
 echo
 echo -n "To exit, press Q"
 echo
-echo -n "-------------------"
+echo -n "-----------------------------------"
 echo
 # Make the right_top.sh executable
 
@@ -86,7 +86,7 @@ do
     # To invoke a script, two positional parameters need to be passed that script, symbol and size, namely
     if [ "$option" = "R" ]
     then
-        ./right_top.sh "$symbol" $size"
+        ./right_top.sh "$symbol" $size
     elif [ "$option" = "D" ]
     then
         echo -n "diagonal"
@@ -106,30 +106,6 @@ do
     fi 
     echo
     echo
-<<<<<<< HEAD
     echo -n "You want to plot another pattern? enter another option: "
     read option
-done                                                
-e
-    elif [ "$option" = "D" ]
-    then
-        echo -n "diagonal"
-    elif [ "$option" = "S" ]
-    then
-        echo -n "secondary diagonal"
-    elif [ "$option" = "H" ]
-    then
-        echo -n "Hollow square"
-    elif [ "$option" = "Q" ]
-    then
-        break
-    else
-        echo -n "Unknow option entered ... !"
-        echo
-	echo
-    fi 
-=======
->>>>>>> 163eb4e5c1017a9f6192deb5a0c1b9a79035b033
-    echo -n "You want to plot another pattern? enter another option: "
-    read option
-done                                                
+done                                                                                         
