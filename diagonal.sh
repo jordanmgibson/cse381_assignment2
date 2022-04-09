@@ -1,9 +1,9 @@
 #!/bin/bash
 for (( i = 1; i <= `expr $2 + 1`; i++ ))
 do
-    for (( j = 1; i <= `expr $2 + 1`; i++ ))
+    for (( j = 1; j <= `expr $2 + 1`; j++ ))
     do
-        if [ i == j ]
+        if [ $i == $j ]
         then
             echo -n "$1"
         else
