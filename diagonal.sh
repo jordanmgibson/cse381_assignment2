@@ -5,10 +5,10 @@ do
     do
         if [ $i == $j ]
         then
-            echo -n "$1"
+            echo "$1"
         else
-            echo -n " "
+            echo " "
         fi
-        echo
     done
+    echo
 done
