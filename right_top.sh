@@ -1,3 +1,4 @@
+#Jordan Gibson
 #!/bin/bash
 i=$2
 while [ $i -ge 1 ]

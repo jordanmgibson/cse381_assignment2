@@ -1,3 +1,4 @@
+#Jordan Gibson
 #!/bin/bash
 
 # Display the pattern options to the user
