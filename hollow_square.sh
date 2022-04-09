@@ -5,9 +5,9 @@ do
     do
         if [ $i -eq 1 ] || [  $i -eq $2 ] || [ $j -eq 1 ] || [ $j -eq $2 ]
         then
-            echo "$1"
+            echo -n "$1"
         else
-            echo " "
+            echo -n " "
         fi
     done
     echo
