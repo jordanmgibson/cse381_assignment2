@@ -44,6 +44,7 @@ do
     then
         ./right_top.sh "$symbol" $size
     elif [ "$option" = "D" ]
+        ./diagonal.sh "$symbol" $size
     then
         echo -n "diagonal"
     elif [ "$option" = "S" ]
