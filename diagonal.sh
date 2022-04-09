@@ -9,6 +9,6 @@ do
         else
             echo -n " "
         fi
+        echo
     done
 done
-echo
