@@ -51,7 +51,7 @@ do
         ./secondary_diagonal.sh "$symbol" $size
     elif [ "$option" = "H" ]
     then
-        echo -n "Hollow square"
+        ./hollow_square.sh "$symbol" $size
     elif [ "$option" = "Q" ]
     then
         break
