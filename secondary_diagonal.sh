@@ -1,4 +1,3 @@
-#Jordan Gibson
 #!/bin/bash
 for (( i = 1; i < `expr $2 + 1`; i++ ))
 do
