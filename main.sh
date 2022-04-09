@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Jordan Gibson CSE 381
 # Display the pattern options to the user
 echo -n "To plot right-top triangle, press R"
 echo

@@ -1,4 +1,5 @@
 #!/bin/bash
+# Jordan Gibson CSE 381
 i=$2
 while [ $i -ge 1 ]
 do
