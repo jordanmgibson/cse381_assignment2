@@ -1,3 +1,4 @@
+#!/bin/bash
 i=$2
 while [ $i -ge 1 ]
 do
